@@ -33,3 +33,18 @@ body
     font-family: Arial;
     font-weight: bold;
 }
+.todo_button
+{
+    margin-left: 300px;
+    margin-top: 2px;
+    background-color: transparent;
+    border-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+}
+.todo_card
+{
+    margin-bottom: 20px;
+}
