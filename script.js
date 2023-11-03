@@ -15,7 +15,6 @@ function renderTodoList()
         `;
         todoListHTML += html;
     }
-    console.log(todoListHTML);
 
     document.querySelector('.js-todolist').innerHTML = todoListHTML;
 }
