@@ -8,3 +8,4 @@ features to add
 * on going todo
 * finished todo 
 * deleting todo
+* make it looks nice XD
