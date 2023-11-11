@@ -48,3 +48,13 @@ body
 {
     margin-bottom: 20px;
 }
+.column
+{
+    padding: 10px;
+}
+.row
+{
+    content:"";
+    display: inline-block;
+    clear: both;
+}
