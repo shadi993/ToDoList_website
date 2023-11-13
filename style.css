@@ -72,3 +72,20 @@ body
     transition: background .15s ease;
 
 }
+#todoAdd{
+    height: 65px;
+    width: 75px;
+    outline: none;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: solid;
+    cursor: pointer;
+}
+#todoAdd:hover{
+    transition: background-color 0.2s,color 0.2s;
+    background-color: rgb(150, 0, 0);
+}

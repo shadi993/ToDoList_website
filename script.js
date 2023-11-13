@@ -17,4 +17,18 @@ function renderTodoList()
     }
     document.querySelector('.js-todolist').innerHTML = todoListHTML;
 }
-//shadi is gay by chaotic 
+
+function addTodo()
+{
+    const inputElement = document.querySelector('.js-input');
+    const name = inputElement.value;
+    const dateInputElement = document.querySelector('.js-description');
+const dueDate = dateInputElement.value;
+    
+    todoList.push({name, description});
+    console.log(todoList);
+    inputElement.value ='';
+
+    renderTodoList()
+}
+
