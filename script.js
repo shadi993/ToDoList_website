@@ -11,7 +11,11 @@ function renderTodoList()
         const todoObject =todoList[i];
         const  { name, description } = todoObject;
         const html = `
-        <p>place holder</p>
+        <li>
+        <span id="comment">home</span>
+        <span id="close">X</span>
+    </li>
+    <li>${name}</li>
         `;
         todoListHTML += html;
     }

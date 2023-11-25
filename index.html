@@ -9,12 +9,12 @@
 </head>
 <body>
     <p class="title">Todo List</p>
-    <input type="text" name="todo" id="todoInput" placeholder="To do list">
-    <button id="todoAdd">ADD</button>
+    <input type="text" name="todo" id="todoInput" placeholder="To do list" class="js-input">
+    <button id="todoAdd" onclick="addTodo()">ADD</button>
     <div id="container">
         <div class="col">
          <h1>todo</h1>
-            <ul >
+            <ul class="js-todolist">
                 <li>
                     <span id="comment">home</span>
                     <span id="close">X</span>
