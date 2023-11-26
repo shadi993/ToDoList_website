@@ -9,13 +9,12 @@ function renderTodoList()
     for (let i =0; i < todoList.length; i++)
     {
         const todoObject =todoList[i];
-        const  { name, description } = todoObject;
+        const  { name} = todoObject;
         const html = `
         <li>
-        <span id="comment">home</span>
-        <span id="close">X</span>
-    </li>
-    <li>${name}</li>
+                    <span id="comment">${name}</span>
+                    <span id="close">X</span>
+                </li>
         `;
         todoListHTML += html;
     }
@@ -26,10 +25,10 @@ function addTodo()
 {
     const inputElement = document.querySelector('.js-input');
     const name = inputElement.value;
-    const dateInputElement = document.querySelector('.js-description');
-const dueDate = dateInputElement.value;
+    //const dateInputElement = document.querySelector('.js-description');
+    //const description = dateInputElement.value;
     
-    todoList.push({name, description});
+    todoList.push({name});
     console.log(todoList);
     inputElement.value ='';
 
