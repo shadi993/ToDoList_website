@@ -13,7 +13,10 @@ function renderTodoList()
         const html = `
         <li>
                     <span id="comment">${name}</span>
-                    <span id="close">X</span>
+                    <span id="close" onclick="
+                    todoList.splice(${i},1);
+                    renderTodoList();
+                    ">X</span>
                 </li>
         `;
         todoListHTML += html;
